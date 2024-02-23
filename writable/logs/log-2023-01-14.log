@@ -1,0 +1,262 @@
+CRITICAL - 2023-01-14 07:33:31 --> Undefined variable $levels
+in APPPATH\Views\clubs.php on line 87.
+ 1 APPPATH\Views\clubs.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $levels', 'APPPATH\\Views\\clubs.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clubs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clubs', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('clubs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-14 07:41:05 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\clubs.php on line 89.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clubs', [], true)
+ 4 APPPATH\Controllers\clubController.php(32): view('clubs', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\clubController->levels()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clubController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-14 07:41:25 --> Undefined variable $pos
+in APPPATH\Views\clubs.php on line 92.
+ 1 APPPATH\Views\clubs.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pos', 'APPPATH\\Views\\clubs.php', 92)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clubs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clubs', [], true)
+ 5 APPPATH\Controllers\clubController.php(32): view('clubs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\clubController->levels()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clubController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-14 07:41:35 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Views\clubs.php on line 89.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clubs', [], true)
+ 4 APPPATH\Controllers\clubController.php(32): view('clubs', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\clubController->levels()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clubController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-14 07:42:11 --> Cannot use [] for reading
+in APPPATH\Views\clubs.php on line 89.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-14 07:43:25 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Views\clubs.php on line 90.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clubs', [], true)
+ 4 APPPATH\Controllers\clubController.php(32): view('clubs', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\clubController->levels()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clubController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-14 07:44:24 --> sizeof(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Views\clubs.php on line 90.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clubs', [], true)
+ 4 APPPATH\Controllers\clubController.php(32): view('clubs', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\clubController->levels()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clubController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-14 07:49:00 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\clubs.php on line 89.
+ 1 APPPATH\Views\clubs.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Views\\clubs.php', 89)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clubs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clubs', [], true)
+ 5 APPPATH\Controllers\clubController.php(32): view('clubs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\clubController->levels()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clubController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-14 07:51:16 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\clubs.php on line 90.
+ 1 APPPATH\Views\clubs.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Views\\clubs.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clubs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clubs', [], true)
+ 5 APPPATH\Controllers\clubController.php(32): view('clubs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\clubController->levels()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clubController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-14 07:51:44 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\clubs.php on line 90.
+ 1 APPPATH\Views\clubs.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Views\\clubs.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clubs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clubs', [], true)
+ 5 APPPATH\Controllers\clubController.php(32): view('clubs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\clubController->levels()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clubController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-14 07:52:58 --> Array to string conversion
+in APPPATH\Views\clubs.php on line 88.
+ 1 APPPATH\Views\clubs.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\clubs.php', 88)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clubs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clubs', [], true)
+ 5 APPPATH\Controllers\clubController.php(32): view('clubs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\clubController->levels()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clubController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-14 07:54:18 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Views\clubs.php on line 91.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clubs', [], true)
+ 4 APPPATH\Controllers\clubController.php(32): view('clubs', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\clubController->levels()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clubController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-14 07:55:55 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Views\clubs.php on line 91.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clubs', [], true)
+ 4 APPPATH\Controllers\clubController.php(32): view('clubs', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\clubController->levels()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clubController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-14 07:56:14 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Views\clubs.php on line 91.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clubs', [], true)
+ 4 APPPATH\Controllers\clubController.php(32): view('clubs', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\clubController->levels()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clubController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-14 07:56:47 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Views\clubs.php on line 91.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clubs', [], true)
+ 4 APPPATH\Controllers\clubController.php(32): view('clubs', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\clubController->levels()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clubController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-14 07:57:18 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Views\clubs.php on line 91.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clubs', [], true)
+ 4 APPPATH\Controllers\clubController.php(32): view('clubs', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\clubController->levels()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clubController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-14 08:09:02 --> Attempt to read property "positives" on array
+in APPPATH\Views\clubs.php on line 90.
+ 1 APPPATH\Views\clubs.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "positives" on array', 'APPPATH\\Views\\clubs.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clubs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clubs', [], true)
+ 5 APPPATH\Controllers\clubController.php(32): view('clubs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\clubController->levels()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clubController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-14 08:12:22 --> Undefined array key 0
+in APPPATH\Views\clubs.php on line 90.
+ 1 APPPATH\Views\clubs.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\clubs.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clubs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clubs', [], true)
+ 5 APPPATH\Controllers\clubController.php(32): view('clubs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\clubController->levels()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clubController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-14 08:12:37 --> Undefined variable $positives
+in APPPATH\Views\clubs.php on line 93.
+ 1 APPPATH\Views\clubs.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $positives', 'APPPATH\\Views\\clubs.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clubs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clubs', [], true)
+ 5 APPPATH\Controllers\clubController.php(32): view('clubs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\clubController->levels()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clubController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-14 08:17:58 --> Attempt to read property "positives" on array
+in APPPATH\Views\clubs.php on line 90.
+ 1 APPPATH\Views\clubs.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "positives" on array', 'APPPATH\\Views\\clubs.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clubs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clubs', [], true)
+ 5 APPPATH\Controllers\clubController.php(32): view('clubs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\clubController->levels()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clubController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-14 09:18:35 --> Undefined constant "value"
+in APPPATH\Views\clubs.php on line 98.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clubs', [], true)
+ 4 APPPATH\Controllers\clubController.php(32): view('clubs', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\clubController->levels()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clubController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-14 09:21:41 --> Undefined array key "header_text"
+in APPPATH\Views\clubs.php on line 83.
+ 1 APPPATH\Views\clubs.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "header_text"', 'APPPATH\\Views\\clubs.php', 83)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clubs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clubs', [], true)
+ 5 APPPATH\Controllers\clubController.php(32): view('clubs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\clubController->levels()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clubController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-14 09:46:03 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Views\clubs.php on line 86.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clubs', [], true)
+ 3 APPPATH\Controllers\clubController.php(32): view('clubs', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\clubController->levels()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clubController))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-14 10:16:56 --> Undefined variable $data1
+in APPPATH\Controllers\clubController.php on line 28.
+ 1 APPPATH\Controllers\clubController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data1', 'APPPATH\\Controllers\\clubController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\clubController->levels()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clubController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-14 10:47:45 --> Undefined variable $levelsView
+in APPPATH\Views\home.php on line 78.
+ 1 APPPATH\Views\home.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $levelsView', 'APPPATH\\Views\\home.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\clubController.php(22): view('home')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\clubController->home()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clubController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-14 13:47:59 --> Undefined variable $levels
+in APPPATH\Views\home.php on line 78.
+ 1 APPPATH\Views\home.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $levels', 'APPPATH\\Views\\home.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\clubController.php(22): view('home')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\clubController->home()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clubController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

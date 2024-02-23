@@ -1,0 +1,77 @@
+CRITICAL - 2023-03-14 04:33:13 --> Undefined array key "CIS_factors1"
+in APPPATH\Views\details.php on line 48.
+ 1 APPPATH\Views\details.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CIS_factors1"', 'APPPATH\\Views\\details.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('details', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->details_CIS()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-14 04:35:57 --> Undefined array key "CIS_factors1"
+in APPPATH\Views\details.php on line 48.
+ 1 APPPATH\Views\details.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CIS_factors1"', 'APPPATH\\Views\\details.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('details', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->details_CIS()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-14 04:36:11 --> Undefined array key "CIS_factors1"
+in APPPATH\Views\details.php on line 113.
+ 1 APPPATH\Views\details.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CIS_factors1"', 'APPPATH\\Views\\details.php', 113)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('details', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->details_CIS()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-14 04:37:56 --> Undefined array key "remark1"
+in APPPATH\Views\details.php on line 45.
+ 1 APPPATH\Views\details.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "remark1"', 'APPPATH\\Views\\details.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('details', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->details_CIS()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-14 04:40:05 --> Undefined array key "remark1"
+in APPPATH\Views\details.php on line 45.
+ 1 APPPATH\Views\details.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "remark1"', 'APPPATH\\Views\\details.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('details', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->details_CIS()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-14 04:40:59 --> Undefined array key "remark1"
+in APPPATH\Views\details.php on line 45.
+ 1 APPPATH\Views\details.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "remark1"', 'APPPATH\\Views\\details.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('details', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->details_CIS()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-14 05:49:18 --> Undefined array key "CIS_factors"
+in APPPATH\Views\details.php on line 45.
+ 1 APPPATH\Views\details.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CIS_factors"', 'APPPATH\\Views\\details.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('details', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->details_CIS()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

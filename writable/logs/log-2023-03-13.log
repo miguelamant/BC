@@ -1,0 +1,67 @@
+CRITICAL - 2023-03-13 14:26:27 --> Undefined variable $key
+in APPPATH\Views\details.php on line 43.
+ 1 APPPATH\Views\details.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $key', 'APPPATH\\Views\\details.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('details', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->details_CIS()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-13 14:34:18 --> Object of class App\Models\Level_model could not be converted to string
+in APPPATH\Models\Level_model.php on line 35.
+ 1 APPPATH\Controllers\clubController.php(14): App\Models\Level_model->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\clubController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-13 17:33:39 --> Undefined property: App\Models\Level_model::$CIS_factors
+in APPPATH\Models\Level_model.php on line 54.
+ 1 APPPATH\Models\Level_model.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Models\\Level_model::$CIS_factors', 'APPPATH\\Models\\Level_model.php', 54)
+ 2 APPPATH\Controllers\Home.php(14): App\Models\Level_model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-13 17:33:42 --> Undefined property: App\Models\Level_model::$CIS_factors
+in APPPATH\Models\Level_model.php on line 54.
+ 1 APPPATH\Models\Level_model.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Models\\Level_model::$CIS_factors', 'APPPATH\\Models\\Level_model.php', 54)
+ 2 APPPATH\Controllers\Home.php(14): App\Models\Level_model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-13 17:34:15 --> Undefined array key "CIS_factors"
+in APPPATH\Views\details.php on line 112.
+ 1 APPPATH\Views\details.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "CIS_factors"', 'APPPATH\\Views\\details.php', 112)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('details', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->details_CIS()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-13 17:34:32 --> Undefined array key "handin"
+in APPPATH\Views\details.php on line 112.
+ 1 APPPATH\Views\details.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "handin"', 'APPPATH\\Views\\details.php', 112)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('details', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->details_CIS()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-13 17:43:21 --> Undefined array key "handin2"
+in APPPATH\Views\details.php on line 124.
+ 1 APPPATH\Views\details.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "handin2"', 'APPPATH\\Views\\details.php', 124)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('details', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->details_CIS()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

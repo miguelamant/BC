@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e9513298-9e85-43a4-8ceb-0bac8a0ba21b" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KEKaQLhfBGE9QFlblKPc7KUKyQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/BC/public/home&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\BC\public\home" />
+      <recent name="C:\xampp\htdocs\BC" />
+      <recent name="C:\xampp\htdocs\BC\app\Views" />
+      <recent name="C:\xampp\htdocs\BC\public" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="BC" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="BC" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9513298-9e85-43a4-8ceb-0bac8a0ba21b" name="Changes" comment="" />
+      <created>1673534364378</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673534364378</updated>
+      <workItem from="1673534368329" duration="18734000" />
+      <workItem from="1673702541508" duration="809000" />
+      <workItem from="1673703375629" duration="232000" />
+      <workItem from="1673703620099" duration="17823000" />
+      <workItem from="1674046510132" duration="17608000" />
+      <workItem from="1674111484523" duration="3343000" />
+      <workItem from="1674156742483" duration="546000" />
+      <workItem from="1674827618624" duration="640000" />
+      <workItem from="1674914386069" duration="5968000" />
+      <workItem from="1675158028722" duration="1000000" />
+      <workItem from="1677622114841" duration="699000" />
+      <workItem from="1678265867073" duration="29565000" />
+      <workItem from="1678361313581" duration="1470000" />
+      <workItem from="1678731491495" duration="6774000" />
+      <workItem from="1678780827511" duration="27807000" />
+      <workItem from="1678822438634" duration="4551000" />
+      <workItem from="1678836588927" duration="625000" />
+      <workItem from="1678901134905" duration="37000" />
+      <workItem from="1679244829317" duration="924000" />
+      <workItem from="1679692855922" duration="1969000" />
+      <workItem from="1700009529531" duration="7237000" />
+      <workItem from="1700960336320" duration="4573000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
